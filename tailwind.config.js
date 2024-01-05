@@ -29,6 +29,8 @@ module.exports = {
       colors: {
         cs_gray: "#717171",
         cs_light_gray: "#1F1E22",
+        dark_silver:"#F0F0F0",
+        light_silver:"#F7F7F7"
       },
     },
     fontSize: {

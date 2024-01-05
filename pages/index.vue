@@ -3,6 +3,9 @@
     <HeroBanner/>
     <WhatWeDo/>
     <Capabilities/>
+    <Testimonials/>
+    <VideoBanner/>
+    <Contact/>
   </div>
 </template>
 

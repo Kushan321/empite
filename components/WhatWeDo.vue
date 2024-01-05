@@ -1,7 +1,8 @@
 <template>
   <div class="WhatWeDo-wrap bg-black">
-    <div class="container mx-auto flex flex-col-reverse md:flex-row py-20 pl-4 pr-4 2xl:pl-0 2xl:pr-0">
-      <!-- Left side with image -->
+    <div
+      class="container mx-auto flex flex-col-reverse md:flex-row py-20 pl-4 pr-4 2xl:pl-0 2xl:pr-0"
+    >
       <div class="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1">
         <p class="text-cs_gray">WHAT WE DO</p>
         <h2
@@ -12,7 +13,6 @@
         </h2>
       </div>
 
-      <!-- Right side with text content -->
       <div
         class="content-wrap w-full md:w-1/2 text-left flex flex-col items-center md:items-start order-1 md:order-2 pb-10 md:pb-0"
       >
@@ -24,29 +24,28 @@
           problems in a secure, simple and effective way.
         </p>
         <div class="container mx-auto">
-          <!-- First Row -->
           <div class="lg:flex mb-8">
-            <!-- First Column -->
             <div class="lg:w-1/2 lg:pr-4 mb-4">
               <img
                 src="images/custom_software.png"
                 alt="Image 1"
                 class="h-auto w-8 xl:w-10 2xl:w-12"
               />
-              <h2 class="mt-5 text-xl 2xl:text-xxl font-bold text-white">Custom Software</h2>
+              <h2 class="mt-5 text-xl 2xl:text-xxl font-bold text-white">
+                Custom Software
+              </h2>
               <p class="mt-1 text-white text-lg xl:text-lg 2xl:text-xl">
                 We create solutions that solve your business problems. Our team
                 has a decade long success track record.
               </p>
             </div>
-            <!-- Second Column -->
             <div class="lg:w-1/2 lg:pl-4 mb-4">
               <img
                 src="images/web_app.png"
                 alt="Image 1"
                 class="h-auto w-8 xl:w-10 2xl:w-12"
               />
-              <h2  class="mt-5 text-xl 2xl:text-xxl font-bold text-white">
+              <h2 class="mt-5 text-xl 2xl:text-xxl font-bold text-white">
                 Web Applications
               </h2>
               <p class="mt-1 text-white text-lg xl:text-lg 2xl:text-xl">
@@ -56,9 +55,7 @@
             </div>
           </div>
 
-          <!-- Second Row -->
           <div class="lg:flex">
-            <!-- Third Column -->
             <div class="lg:w-1/2 lg:pr-4 mb-4">
               <img
                 src="images/ux_design.png"
@@ -73,14 +70,15 @@
                 apps that are easy to use.
               </p>
             </div>
-            <!-- Fourth Column -->
             <div class="lg:w-1/2 lg:pl-4 mb-4">
               <img
                 src="images/ux_design.png"
                 alt="Image 1"
                 class="h-auto w-8 xl:w-10 2xl:w-12"
               />
-              <h2 class="mt-5 text-xl 2xl:text-xxl font-bold text-white">UI / UX Design</h2>
+              <h2 class="mt-5 text-xl 2xl:text-xxl font-bold text-white">
+                UI / UX Design
+              </h2>
               <p class="mt-1 text-white text-lg xl:text-lg 2xl:text-xl">
                 We craft better user experience and Interface designs for your
                 digital products.
