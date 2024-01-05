@@ -1,6 +1,6 @@
 <template>
   <div>
-<p> body</p>
+    <HeroBanner/>
   </div>
 </template>
 
