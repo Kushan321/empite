@@ -46,10 +46,7 @@ module.exports = {
       "8xl": "88px", // 8 Extra Large
       "9xl": "96px", // 9 Extra Large
     },
-    fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
-    },
+   
   },
   plugins: [],
 };
