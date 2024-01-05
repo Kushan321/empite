@@ -12,7 +12,7 @@
 
       <!-- Right side with text content -->
       <div
-        class="content-wrap w-full md:w-1/2 px-5 text-center md:text-left flex flex-col items-center md:items-start order-1 md:order-2 pb-10 md:pb-0"
+        class="content-wrap w-full md:w-1/2 px-5 text-center md:text-left flex flex-col items-center md:items-start order-1 md:order-2 pb-10 md:pb-0 xl:pl-10 2xl:pl-20"
       >
         <h2 class="font-bold mb-4 leading-tight text-xxl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl">
           Pushing The Envelope Of Software Development

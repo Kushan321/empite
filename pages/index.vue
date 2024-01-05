@@ -1,6 +1,8 @@
 <template>
   <div>
     <HeroBanner/>
+    <WhatWeDo/>
+    <Capabilities/>
   </div>
 </template>
 
