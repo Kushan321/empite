@@ -122,6 +122,9 @@ export default {
     &-pagination {
       bottom: -40px !important;
       right: 100%;
+      @media (max-width: 1366.98px) {
+        right: 98%;
+      }
       @media (max-width: 1024.98px) {
         right: 95%;
         bottom: -10px !important;
