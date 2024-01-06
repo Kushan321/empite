@@ -1,6 +1,6 @@
 <template>
   <div class="footer-wrap">
-    <footer class="bg-black text-white p-4">
+    <footer class="bg-black text-white p-4 py-20">
       <div class="container mx-auto">
         <!-- First Row -->
         <div class="flex flex-wrap mb-4">
@@ -47,12 +47,18 @@
           >
             <!-- Column Content -->
             <h3 class="text-lg font-bold text-cs_gray">Stay in touch</h3>
-            <div class="flex mt-5">
-              <input
-                type="email"
-                placeholder="Your email address"
-                class="flex-grow p-2 rounded bg-cs_light_gray"
-              />
+            <div class="flex mt-5 w-full">
+              <div class="relative w-full">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  class="flex-grow p-2 w-full rounded bg-cs_light_gray"
+                />
+                <span
+                  class=" text-lg xl:text-xl cursor-pointer subscribe-text absolute right-4 top-1 font-bold"
+                  >Subscribe</span
+                >
+              </div>
             </div>
           </div>
         </div>

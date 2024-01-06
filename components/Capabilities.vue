@@ -46,11 +46,19 @@
               Website & Mobile Development
             </div>
             <!-- Progress Bar with Percentage -->
-            <div class="bg-gray-300 h-2 rounded-full relative w-3/4">
-              <div
-                class="bg-red-600 h-2 rounded-full"
-                :style="{ width: progress + '%' }"
-              ></div>
+            <div class="mt-10 lg:mt-5">
+              <div class="bg-gray-300 h-2 rounded-full w-3/4">
+                <div
+                  class="relative bg-red-600 h-2 rounded-full"
+                  :style="{ width: progress + '%' }"
+                >
+                  <span
+                    class="absolute bottom-0 right-0 mt-1 px-2 py-1 bg-black text-white rounded opacity-75 tooltip"
+                  >
+                    {{ progress }}%
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

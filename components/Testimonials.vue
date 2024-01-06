@@ -31,10 +31,13 @@
               <hooper-pagination
                 slot="hooper-addons"
                 mode="fraction"
+                :i18n="{ format: '%d-%d' }"
                 class="text-xl"
               ></hooper-pagination>
             </hooper>
-            <div class="controls-wrap flex justify-end pr-5 lg:pr-20 mt-5 md:mt-6 lg:-mt-8 xl:mt-0">
+            <div
+              class="controls-wrap flex justify-end pr-5 lg:pr-20 mt-5 md:mt-6 lg:-mt-8 xl:mt-0"
+            >
               <button @click.prevent="slidePrev">
                 <img class="w-10" src="images/prev_control.png" />
               </button>
@@ -122,7 +125,6 @@ export default {
       @media (max-width: 1024.98px) {
         right: 95%;
         bottom: -10px !important;
-
       }
       @media (max-width: 959.98px) {
         bottom: -60px !important;
