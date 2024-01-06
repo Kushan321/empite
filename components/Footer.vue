@@ -12,7 +12,6 @@
               alt="Logo"
               class="w-16 h-16 mb-2"
             />
-            <!-- Add your content here -->
           </div>
 
           <!-- Column 2 -->
@@ -66,7 +65,6 @@
         <!-- Second Row -->
         <div class="flex justify-between border-t border-cs_light_gray">
           <p class="text-sm py-5">&copy; 2020, Empire Pty Ltd</p>
-          <!-- Add additional content on the right side if needed -->
         </div>
       </div>
     </footer>
